@@ -35,3 +35,15 @@ int main() {
 
     return 0;
 }
+
+/*----------------OUTPUT---------------
+Enter the number of elements in the array: 5
+Enter 5 elements: 98 23 70 60 69
+23 70 60 69 98
+23 60 69 70 98
+23 60 69 70 98
+23 60 69 70 98
+23 60 69 70 98
+Sorted array:
+23 60 69 70 98
+*/
