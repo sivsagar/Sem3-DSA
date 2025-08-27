@@ -1,0 +1,2 @@
+/*Write a program to take a polynomial as input store it in
+a array and print it*/
