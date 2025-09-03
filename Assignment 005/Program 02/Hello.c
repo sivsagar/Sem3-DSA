@@ -1,0 +1,1 @@
+/*Do the same as 1 but use pointers and dynamic memory allocation*/
