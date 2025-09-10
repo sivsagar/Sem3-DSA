@@ -6,16 +6,15 @@ of comparison will return 1 for swap & -1 for no swap (give the sample out put a
 
 #include <stdio.h>
 
-// Comparison function for ascending order
 int ascending(int a, int b) {
-    if (a > b) return 1;  // swap needed
-    return -1;            // no swap
+    if (a > b) return 1;  
+    return -1;            
 }
 
-// Comparison function for descending order
+
 int descending(int a, int b) {
-    if (a < b) return 1;  // swap needed
-    return -1;            // no swap
+    if (a < b) return 1;  
+    return -1;            
 }
 
 // Bubble sort function using function pointer
@@ -47,13 +46,13 @@ int main() {
     printf("Original array: ");
     printArray(arr, n);
     
-    // Sort in ascending order
+   
     int arr1[] = {64, 34, 25, 12, 22, 11, 90};
     bubbleSort(arr1, n, ascending);
     printf("Ascending order: ");
     printArray(arr1, n);
     
-    // Sort in descending order
+    
     int arr2[] = {64, 34, 25, 12, 22, 11, 90};
     bubbleSort(arr2, n, descending);
     printf("Descending order: ");
